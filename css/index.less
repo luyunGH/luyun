@@ -1,0 +1,221 @@
+@mc: #ff841d;
+#header {
+  background-color: @mc;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  .header_logo {
+    float: left;
+    a {
+      img {
+        height: 25px;
+      }
+    }
+  }
+  .header_app {
+    float: right;
+    a {
+      img {
+        width: 34px;
+        height: 34px;
+      }
+    }
+  }
+}
+
+#search {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  padding-right: 70px;
+  position: relative;
+  form {
+    .searchbox {
+      width: 100%;
+      height: 30px;
+      border: none;
+      background-color: yellowgreen;
+      font-size: 14px;
+      -webkit-border-radius: 14px;
+      -moz-border-radius: 14px;
+      border-radius: 14px;
+      padding-left: 10px;
+    }
+    .searchbtn {
+      height: 30px;
+      width: 60px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: @mc;
+      border: none;
+      -webkit-border-radius: 14px;
+      -moz-border-radius: 14px;
+      border-radius: 14px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+#menu {
+  padding: 10px;
+  .row {
+    .item {
+      padding: 10px 0;
+      //float: left;
+      a {
+        /* width: 106px;
+         height: 72px;*/
+        display: block;
+        text-align: center;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        p {
+          font-size: 12px;
+          color: #337ab7;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+#dissale {
+  .dissaleTile {
+    height: 35px;
+    background-color: @mc;
+    h4 {
+      padding: 0 10px;
+      line-height: 35px;
+      span {
+        color: white;
+        font-size: 15px;
+      }
+      img {
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-top: 8px;
+      }
+    }
+  }
+  .dissaleList {
+    padding: 10px 0px;
+    .media {
+      border-bottom: 1px solid #a1a1a1;
+      padding: 10px;
+      .pull-left {
+        img {
+          width: 100px;
+        }
+      }
+      .media-body {
+        color: #a1a1a1;
+        h4 {
+          font-size: 16px;
+          span {
+            color: darkred;
+          }
+        }
+        p {
+          margin-top: 20px;
+          span {
+            font-size: 12px;
+          }
+          *:nth-child(2) {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+  .dissaleMore {
+    padding: 10px;
+    a {
+      width: 100%;
+      height: 30px;
+      display: block;
+      border: 1px solid #a1a1a1;
+      border-radius: 7px;
+      text-align: center;
+      line-height: 30px;
+      color: black;
+      background-color: pink;
+    }
+  }
+}
+
+#tuijian {
+  .dissaleTile {
+    height: 35px;
+    background-color: @mc;
+    h4 {
+      padding: 0 10px;
+      line-height: 35px;
+      span {
+        color: white;
+        font-size: 15px;
+      }
+      img {
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+#footer{
+  text-align: center;
+  div{
+    border: 1px solid #a1a1a1;
+    .width30{
+      width: 30%;
+      border-right: 1px solid #a1a1a1;
+      a{
+        color: black;
+        font-size: 14px;
+      }
+    }
+    .width30{
+      width: 30%;
+      border-right: 1px solid #a1a1a1;
+      float: left;
+      a{
+        color: black;
+        font-size: 14px;
+      }
+    }
+    .width40{
+      width: 40%;
+      float: left;
+      a{
+        color: black;
+        font-size: 14px;
+        img{
+          width: 15px;
+          height: 15px;
+          margin-top: -3px;
+        }
+      }
+    }
+  }
+  p{
+    //text-align: center;
+    a{
+      *:nth-child(1){
+        color: red;
+      }
+      *:nth-child(2){
+        color: black;
+      }
+      *:nth-child(3){
+        color: gray;
+      }
+    }
+  }
+}
